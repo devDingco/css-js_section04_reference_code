@@ -139,6 +139,8 @@ a {
 .CSS_기분이미지 {
   height: 100%;
   width: 100%;
+  object-fit: cover;
+  border-radius: 1.2rem;
 }
 
 .CSS_일기내용 {
@@ -158,6 +160,7 @@ a {
   font-size: 1.4rem;
   font-weight: 600;
   line-height: 2rem;
+  text-wrap: nowrap;
 }
 
 .CSS_행복 {
@@ -187,6 +190,7 @@ a {
   color: #919191;
   text-align: right;
   width: 100%;
+  text-wrap: nowrap;
 }
 
 .CSS_일기제목 {
@@ -207,7 +211,7 @@ a {
 
 /* 일기등록 상자*/
 .CSS_등록상자 {
-  min-width: 36rem;
+  min-width: 32rem;
   height: fit-content;
   border-radius: 1.6rem;
   background-color: #fff;
