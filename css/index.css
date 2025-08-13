@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-size: 62.5%;
+  font-size: 10px;
 }
 
 body {
@@ -19,6 +19,7 @@ a {
 
 .CSS_레이아웃 {
   margin: 0 2rem 4rem;
+  max-width: 1168px;
 }
 
 .CSS_타이틀 {
@@ -93,7 +94,8 @@ a {
 }
 
 .CSS_색상반전 {
-  filter: invert(1); /* 색상 반전 */
+  filter: invert(1);
+  /* 색상 반전 */
 }
 
 /* 일기 보여주는 곳 */
@@ -104,6 +106,7 @@ a {
 }
 
 .CSS_일기 {
+  position: relative;
   max-width: 38rem;
   display: flex;
   flex-direction: column;
@@ -130,6 +133,7 @@ a {
   display: flex;
   flex-direction: column;
   padding: 0 0.8rem 1.6rem;
+  color: black;
 }
 
 .CSS_기분이미지 {
@@ -194,11 +198,11 @@ a {
 
 .CSS_삭제버튼 {
   width: 100%;
-  width: 2.4rem;
-  height: 2.4rem;
-  position: relative;
-  left: 35rem;
-  top: -35rem;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  inset-block-start: 0.8rem;
+  inset-inline-end: 0.8rem;
 }
 
 /* 일기등록 상자*/
